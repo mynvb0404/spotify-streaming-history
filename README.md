@@ -66,7 +66,7 @@ A new variable called `is_valid_stream` was created to identify valid streams:
 </p>
 
 <p align="center">
-  <i>Figure 1. Distribution of Listening Duration - All Streams</i>
+  <i>Figure 4.1.1. Distribution of Listening Duration - All Streams</i>
 </p>
 
 <p align="center">
@@ -74,5 +74,5 @@ A new variable called `is_valid_stream` was created to identify valid streams:
 </p>
 
 <p align="center">
-  <i>Figure 2. Distribution of Listening Duration - Valid Streams</i>
+  <i>Figure 4.1.2. Distribution of Listening Duration - Valid Streams</i>
 </p>

@@ -49,14 +49,13 @@ A new variable called `is_valid_stream` was created to identify valid streams:
 | `True` | `ms_played >= 30,000` | Valid stream |
 | `False` | `ms_played < 30,000` | Invalid stream |
 ### 3.3. Feature Engineering
-The `ts` timestamp was decomposed into several time-related variables to analyze listening patterns:
-| Variable      | Meaning                                        | Calculation       |
-| ------------- | ---------------------------------------------- | ----------------- |
-| `year`        | Year when the track stopped playing            | `ts.dt.year`      |
-| `month`       | Month when the track stopped playing           | `ts.dt.month`     |
-| `day_of_week` | Day of the week when the track stopped playing | `ts.dt.dayofweek` |
-| `hour`        | Hour when the track stopped playing            | `ts.dt.hour`      |
-| `minute`      | Minute when the track stopped playing          | `ts.dt.minute`    |
+| Variable         | Meaning                                        | Calculation                                 |
+| ---------------- | ---------------------------------------------- | ------------------------------------------- |
+| `year`           | Year when the track stopped playing            | Extracted from `ts` using `ts.dt.year`      |
+| `month`          | Month when the track stopped playing           | Extracted from `ts` using `ts.dt.month`     |
+| `day_of_week`    | Day of the week when the track stopped playing | Extracted from `ts` using `ts.dt.dayofweek` |
+| `hours_played`   | Listening duration in hours                    | `ms_played / 3,600,000`                     |
+| `minutes_played` | Listening duration in minutes                  | `ms_played / 60,000`                        |
 
 ## 4. Exploratory Data Analysis
 ### 4.1 Streaming Duration

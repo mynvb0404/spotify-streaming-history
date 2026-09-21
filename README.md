@@ -78,7 +78,7 @@ A new variable called `is_valid_stream` was created to identify valid streams:
 </p>
 
 **Key Observation:**
-After filtering out invalid streams (less then 30s), the data became mỏe concentrated, with most listening durations falling within the 3-4 minutes range, while the strong concentration around 0 minutes in the original data was significantly reduced.
+After filtering out invalid streams (less than 30 seconds), the data became more concentrated, with most listening durations falling within the **3-4 minute range**, while the strong concentration around 0 minutes in the original data was significantly reduced.
 ### 4.2 Skip Rate by Platform
 <p align="center">
   <img src="./images/skip_rate_all.png" width="700">

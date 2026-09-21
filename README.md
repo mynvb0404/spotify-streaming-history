@@ -12,6 +12,10 @@ Exploratory data analysis of Spotify streaming history to uncover listening patt
 ## 2. Data Overview
 ### 2.1. Data Information
 Dataset source: [Spotify Streaming History Dataset](https://www.kaggle.com/datasets/arshmankhalid/shopify-streaming-history-dataset)
+- **Total records:** 149,860 listening events
+- **Number of attributes:** 11
+- **Date range:** 08/07/2013 - 15/12/2024
+- **Total listening hours:** 5,341.54 hours
 ### 2.2. Data Dictionary
 | Cột                 | Mô tả                                                                | Kiểu dữ liệu                       |
 | ------------------- | -------------------------------------------------------------------- | ---------------------------------- |

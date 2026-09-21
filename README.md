@@ -11,6 +11,7 @@ Exploratory data analysis of Spotify streaming history to uncover listening patt
 ## 1. Project Overview
 ## 2. Data Overview
 ### 2.1. Data Information
+Dataset source: [Spotify Streaming History Dataset](https://www.kaggle.com/datasets/arshmankhalid/shopify-streaming-history-dataset)
 ### 2.2. Data Dictionary
 | Cột                 | Mô tả                                                                | Kiểu dữ liệu                       |
 | ------------------- | -------------------------------------------------------------------- | ---------------------------------- |

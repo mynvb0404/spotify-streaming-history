@@ -62,7 +62,7 @@ A new variable called `is_valid_stream` was created to identify valid streams:
 ## 4. Exploratory Data Analysis
 ### 4.1 Streaming Duration
 <p align="center">
-  <img src="./images/minutes_played_overall.png" width="700">
+  <img src="./images/minutes_played_all.png" width="700">
 </p>
 
 <p align="center">

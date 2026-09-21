@@ -76,3 +76,20 @@ A new variable called `is_valid_stream` was created to identify valid streams:
 <p align="center">
   <i>Figure 4.1.2. Distribution of Listening Duration - Valid Streams</i>
 </p>
+
+### 4.2 Platform x Skip Rate
+<p align="center">
+  <img src="./images/skip_rate_all.png" width="700">
+</p>
+
+<p align="center">
+  <i>Figure 4.2.1. Skip Rate by Platform - All Streams</i>
+</p>
+
+<p align="center">
+  <img src="./images/skip_rate_valid.png" width="700">
+</p>
+
+<p align="center">
+  <i>Figure 4.2.2. Skip Rate by Platform - Valid Streams</i>
+</p>

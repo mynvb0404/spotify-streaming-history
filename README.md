@@ -14,6 +14,7 @@ Exploratory data analysis of Spotify streaming history to uncover listening patt
   - [4.1. Streaming Duration](#41-streaming-duration)
   - [4.2. Distribution of Streams by Platform ](#42-distribution-of-streams-by-platform)
   - [4.3. Skip Rate by Platform](#43-skip-rate-by-platform)
+- [5. Key Insights](#5-key-insights)
 ## 1. Project Overview
 
 ## 2. Data Overview
@@ -99,7 +100,7 @@ After filtering out invalid streams (less than 30 seconds), the data became more
 </p>
 
 **Key Observation:**
-
+Android contributes the largest share of streams in the dataset, accounting **94% of all recorded streams** and **89% of valid streams**.
 
 ### 4.3. Skip Rate by Platform
 <p align="center">
@@ -120,3 +121,6 @@ After filtering out invalid streams (less than 30 seconds), the data became more
 
 **Key Observation:**
 
+## 5. Key Insights
+Based on the exploratory data analysis:
+1. Android dominates streaming volume, accounting for approximately 89% of recorded streams. However, its skip rate is only 1.86%, lower than iOS (5.97%) and windows (4.97%).

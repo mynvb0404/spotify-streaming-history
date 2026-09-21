@@ -42,13 +42,21 @@ Dataset source: [Spotify Streaming History Dataset](https://www.kaggle.com/datas
 ### 3.2. Valid Stream Identification
 For a track to register as a stream on Spotify, you must listen to it for at least 30 seconds.
 
-A new variable called `is_valid_stream` was created:
+A new variable called `is_valid_stream` was created to identify valid streams:
 
-| `is_valid_stream` | Condition |
-|---|---|
-| `True` | `ms_played >= 30,000` |
-| `False` | `ms_played < 30,000` |
+| Value | Condition | Meaning |
+|---|---|---|
+| `True` | `ms_played >= 30,000` | Valid stream |
+| `False` | `ms_played < 30,000` | Invalid stream |
 ### 3.3. Feature Engineering
+The `ts` timestamp was decomposed into several time-related variables to analyze listening patterns:
+| Variable      | Meaning                                        | Calculation       |
+| ------------- | ---------------------------------------------- | ----------------- |
+| `year`        | Year when the track stopped playing            | `ts.dt.year`      |
+| `month`       | Month when the track stopped playing           | `ts.dt.month`     |
+| `day_of_week` | Day of the week when the track stopped playing | `ts.dt.dayofweek` |
+| `hour`        | Hour when the track stopped playing            | `ts.dt.hour`      |
+| `minute`      | Minute when the track stopped playing          | `ts.dt.minute`    |
 
 ## 4. Exploratory Data Analysis
 ### 4.1 Streaming Duration

@@ -117,5 +117,6 @@ After filtering out invalid streams (less than 30 seconds), the data became more
 <p align="center">
   <i>Figure 4.3.2. Skip Rate by Platform - Valid Streams</i>
 </p>
+
 **Key Observation:**
 

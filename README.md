@@ -1,17 +1,17 @@
 # Spotify Streaming History
-Exploratory data analysis of Spotify streaming history to uuncover listening patterns, user behavior and music consumption trends using Python
+Exploratory data analysis of Spotify streaming history to uncover listening patterns, user behavior and music consumption trends using Python
 
 # 1. Data Overview
 | Cột                 | Mô tả                                                                | Kiểu dữ liệu                       |
 | ------------------- | -------------------------------------------------------------------- | ---------------------------------- |
-| `spotify_track_uri` | Mã định danh của bài hát                                             | `string`                           |
-| `ts`                | Thời điểm bài hát dừng phát, theo múi giờ UTC                        | `datetime` (`YYYY-MM-DD HH:MM:SS`) |
-| `platform`          | Nền tảng được sử dụng để phát nhạc                                   | `string`                           |
-| `ms_played`         | Số mili giây bài hát đã được phát                                    | `int64`                            |
-| `track_name`        | Tên bài hát                                                          | `string`                           |
-| `artist_name`       | Tên nghệ sĩ                                                          | `string`                           |
-| `album_name`        | Tên album                                                            | `string`                           |
-| `reason_start`      | Lý do bài hát bắt đầu phát                                           | `string`                           |
-| `reason_end`        | Lý do bài hát kết thúc                                               | `string`                           |
-| `shuffle`           | Cho biết chế độ phát ngẫu nhiên có được bật hay không                | `boolean`                          |
-| `skipped`           | Cho biết bài hát có bị bỏ qua để chuyển sang bài tiếp theo hay không | `boolean`                          |
+| `spotify_track_uri` | Spotify URI that uniquely identifies each track in the form of "spotify:track:<base-62 string>"                                             | `string`                           |
+| `ts`                | Timestamp indicating when the track stopped playing in UTC (Coordinated Universal Time)                        | `datetime` (`YYYY-MM-DD HH:MM:SS`) |
+| `platform`          | Platform used when streaming the track                                   | `string`                           |
+| `ms_played`         | Number of milliseconds the stream was played                                    | `int64`                            |
+| `track_name`        | Name of the track                                                          | `string`                           |
+| `artist_name`       | Name of the artist                                                          | `string`                           |
+| `album_name`        | Name of the album                                                            | `string`                           |
+| `reason_start`      | Why the track started                                           | `string`                           |
+| `reason_end`        | Why the track ended                                               | `string`                           |
+| `shuffle`           | TRUE or FALSE depending on if shuffle mode was used when playing the track                | `boolean`                          |
+| `skipped`           | TRUE of FALSE depending on if the user skipped to the next song | `boolean`                          |

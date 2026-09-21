@@ -23,7 +23,7 @@ Dataset source: [Spotify Streaming History Dataset](https://www.kaggle.com/datas
 - **Date range:** 08/07/2013 - 15/12/2024
 - **Total listening hours:** 5,341.54 hours
 ### 2.2. Data Dictionary
-| Cột                 | Mô tả                                                                | Kiểu dữ liệu                       |
+| **Field**                 | **Description**                                                                | **Data Type**                       |
 | ------------------- | -------------------------------------------------------------------- | ---------------------------------- |
 | `spotify_track_uri` | Spotify URI that uniquely identifies each track in the form of "spotify:track:<base-62 string>"                                             | `string`                           |
 | `ts`                | Timestamp indicating when the track stopped playing in UTC (Coordinated Universal Time)                        | `datetime` (`YYYY-MM-DD HH:MM:SS`) |
@@ -44,12 +44,14 @@ For a track to register as a stream on Spotify, you must listen to it for at lea
 
 A new variable called `is_valid_stream` was created to identify valid streams:
 
-| Value | Condition | Meaning |
-|---|---|---|
-| `True` | `ms_played >= 30,000` | Valid stream |
-| `False` | `ms_played < 30,000` | Invalid stream |
+| **is_valid_stream** | **Condition**         | **Proportion** |
+| ------------------- | --------------------- | -------------: |
+| `True`              | `ms_played >= 30,000` |         62.77% |
+| `False`             | `ms_played < 30,000`  |         37.23% |
+| **Total**           |                       |    **100.00%** |
+
 ### 3.3. Feature Engineering
-| Variable         | Meaning                                        | Calculation                                 |
+| **Variable**         | **Meaning**                                        | **Calculation**                                 |
 | ---------------- | ---------------------------------------------- | ------------------------------------------- |
 | `year`           | Year when the track stopped playing            | Extracted from `ts` using `ts.dt.year`      |
 | `month`          | Month when the track stopped playing           | Extracted from `ts` using `ts.dt.month`     |

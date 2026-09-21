@@ -26,7 +26,7 @@ Dataset source: [Spotify Streaming History Dataset](https://www.kaggle.com/datas
 ### 2.2. Data Dictionary
 | **Field**                 | **Description**                                                                | **Data Type**                       |
 | ------------------- | -------------------------------------------------------------------- | ---------------------------------- |
-| `spotify_track_uri` | Spotify URI that uniquely identifies each track in the form of "spotify:track:<base-62 string>"                                             | `string`                           |
+| `spotify_track_uri` | Spotify URI that uniquely identifies each track in the form of "spotify:track:`<base-62 string>`"                                             | `string`                           |
 | `ts`                | Timestamp indicating when the track stopped playing in UTC (Coordinated Universal Time)                        | `datetime` (`YYYY-MM-DD HH:MM:SS`) |
 | `platform`          | Platform used when streaming the track                                   | `string`                           |
 | `ms_played`         | Number of milliseconds the stream was played                                    | `int64`                            |

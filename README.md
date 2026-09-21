@@ -1,7 +1,17 @@
 # Spotify Streaming History
 Exploratory data analysis of Spotify streaming history to uncover listening patterns, user behavior and music consumption trends using Python
 
-# 1. Data Overview
+## Table of Contents
+- [1. Project Overview]()
+- [2. Data Overview](#2-data-overview)
+  - [2.1. Dataset Information](#21-dataset-information)
+  - [2.2. Data Dictionary](#22-data-dictionary) 
+- [3. Data Cleaning](#3-data-cleaning)
+
+## 1. Project Overview
+## 2. Data Overview
+### 2.1. Data Information
+### 2.2. Data Dictionary
 | Cột                 | Mô tả                                                                | Kiểu dữ liệu                       |
 | ------------------- | -------------------------------------------------------------------- | ---------------------------------- |
 | `spotify_track_uri` | Spotify URI that uniquely identifies each track in the form of "spotify:track:<base-62 string>"                                             | `string`                           |

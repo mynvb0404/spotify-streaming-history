@@ -11,8 +11,8 @@ Exploratory data analysis of Spotify streaming history to uncover listening patt
   - [3.2. Valid Stream Identification](#32-valid-stream-identification)
   - [3.3. Feature Engineering](#33-feature-engineering)
 - [4. Exploratory Data Analysis](#4-exploratory-data-analysis)
-  -  [4.1 Streaming Duration](#41-streaming-duration)
-
+  - [4.1. Streaming Duration](#41-streaming-duration)
+  - [4.2. Skip Rate by Platform](#42-skip-rate-by-platform)
 ## 1. Project Overview
 
 ## 2. Data Overview
@@ -77,7 +77,7 @@ A new variable called `is_valid_stream` was created to identify valid streams:
   <i>Figure 4.1.2. Distribution of Listening Duration - Valid Streams</i>
 </p>
 
-### 4.2 Platform x Skip Rate
+### 4.2 Skip Rate by Platform
 <p align="center">
   <img src="./images/skip_rate_all.png" width="700">
 </p>

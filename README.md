@@ -13,7 +13,7 @@ Exploratory data analysis of Spotify streaming history to uncover listening patt
 - [4. Exploratory Data Analysis](#4-exploratory-data-analysis)
   - [4.1. Streaming Duration](#41-streaming-duration)
   - [4.2. Distribution of Streams by Platform ](#42-distribution-of-streams-by-platform)
-  - [4.3. Skip Rate by Platform](#42-skip-rate-by-platform)
+  - [4.3. Skip Rate by Platform](#43-skip-rate-by-platform)
 ## 1. Project Overview
 
 ## 2. Data Overview
@@ -96,6 +96,7 @@ After filtering out invalid streams (less than 30 seconds), the data became more
 <p align="center">
   <i>Figure 4.2.2. Distribution of Streams by Platform - Valid Streams</i>
 </p>
+
 ### 4.3 Skip Rate by Platform
 <p align="center">
   <img src="./images/skip_rate_all.png" width="700">

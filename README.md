@@ -103,7 +103,7 @@ After filtering out invalid streams (less than 30 seconds), the data became more
 
 ### 4.3. Skip Rate by Platform
 <p align="center">
-  <img src="./images/skip_rate_all.png" width="700">
+  <img src="./images/skip_rate_platform_all.png" width="700">
 </p>
 
 <p align="center">
@@ -111,7 +111,7 @@ After filtering out invalid streams (less than 30 seconds), the data became more
 </p>
 
 <p align="center">
-  <img src="./images/skip_rate_valid.png" width="700">
+  <img src="./images/skip_rate_platform_valid.png" width="700">
 </p>
 
 <p align="center">
